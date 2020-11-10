@@ -65,7 +65,7 @@ public class czlowiek {
         public czlowiek[] getRodzice() {
             return rodzice;
         }
-        public Human(String imie, char plec, String miejsce_zamieszkania, boolean czy_lysy, String color_wlosow, int wiek, czlowiek[] rodzice) {
+        public czlowiek(String imie, char plec, String miejsce_zamieszkania, boolean czy_lysy, String color_wlosow, int wiek, czlowiek[] rodzice) {
             this.imie = imie;
             this.plec = plec;
             this.miejsce_zamieszkania = miejsce_zamieszkania;
